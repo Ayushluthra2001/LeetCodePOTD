@@ -17,9 +17,10 @@ public:
 };
 /*
 ex 5;
-how log2 base works no of bits in 5 is 3 that is 101 but how log2 works
-we are doing 1+log2(5) 
-int which log2 will return 2 so no of bits = 3 .
+how log2 base works to find  no of bits ? The no of bit in 5 is 3 that is 101 that we know  but how log2 works
+This is how it works we are doing 1+log2(5) 
+log2 base gives us  logarithmic value
+in which log2 will return 2 so no of bits in 5 =(2+1)=3.
 values      binaary representation      no of shift     our ans
 1           1                           0               0*0*0+1=1
 2           10                          2               1*2*2+2=6
