@@ -1,0 +1,19 @@
+class Solution {
+public:
+    bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
+        bool flag=true;
+        string one="";
+        string two="";
+
+        for(auto i : word1){
+            one+=i;
+        }
+        for(auto j : word2){
+            two +=j;
+        }
+        //cout<<one<<" "<<two<<endl;
+        //  sort(one.begin(),one.end());
+        //  sort(two.begin(),two.end());
+        return one==two;
+    }
+};
